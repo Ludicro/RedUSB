@@ -1,19 +1,19 @@
 [AutoRun]
 open=start.html
 action=Open Menu
-icon=menu.ico
+icon=logo.ico
 
 [AutoRun.Alpha]
 open=start.html
 action=Open Menu
-icon=menu.ico
+icon=logo.ico
 
 [AutoRun.Macintosh]
 open=start.html
 action=Open Menu
-icon=menu.ico
+icon=logo.ico
 
 [AutoRun.Unix]
 open=start.html
 action=Open Menu
-icon=menu.ico
+icon=logo.ico
