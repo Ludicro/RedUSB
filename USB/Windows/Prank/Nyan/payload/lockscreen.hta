@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Prank Full Screen</title>
+    <hta:application
+        id="prankWindow"
+        border="none"
+        caption="no"
+        showintaskbar="no"
+        windowstate="maximize"
+        topmost="yes">
+    </hta:application>
+    <style type="text/css">
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        #gif {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    </style>
+
+    <script>
+        function writeScreenInfo() {
+            var fso = new ActiveXObject("Scripting.FileSystemObject");
+            var file = fso.OpenTextFile("C:\\Users\\Public\\screen_debug.log", 8, true);
+            file.WriteLine("Hash: " + window.location.hash);
+            file.WriteLine("Screen Width: " + screen.width);
+            file.WriteLine("Screen Height: " + screen.height);
+            file.WriteLine("Window Left: " + window.screenLeft);
+            file.WriteLine("Window Top: " + window.screenTop);
+            file.WriteLine("-------------------");
+            file.Close();
+        }
+    </script>
+</head>
+<body>
+    <img id="gif" src="C:\Windows\Temp\nyan_glitch.gif" />
+</body>
+</html>

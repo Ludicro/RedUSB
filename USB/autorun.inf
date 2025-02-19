@@ -1,0 +1,19 @@
+[AutoRun]
+open=start.html
+action=Open Menu
+icon=menu.ico
+
+[AutoRun.Alpha]
+open=start.html
+action=Open Menu
+icon=menu.ico
+
+[AutoRun.Macintosh]
+open=start.html
+action=Open Menu
+icon=menu.ico
+
+[AutoRun.Unix]
+open=start.html
+action=Open Menu
+icon=menu.ico
