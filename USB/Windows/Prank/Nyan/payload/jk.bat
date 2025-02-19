@@ -17,7 +17,6 @@ taskkill /F /IM powershell.exe
 del "C:\Windows\Temp\nyan_glitch.gif"
 del "C:\Windows\Temp\lockscreen.hta"
 del "C:\Windows\Temp\launcher.vbs"
-del "C:\Windows\Temp\keyLock.ps1"
 del "%USERPROFILE%\Desktop\jk.bat"
 
 
